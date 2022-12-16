@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rough.css">
+     <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Document</title>
+
+   
+
+
+</head>
+<body >
+  
+
+
+  <!----- sticky nav starts here -->
+  <nav class="navbar navbar-expand-lg navbar-dark " id="rough1">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"><img src="E-Hospital Logo.png" alt="" class="image1"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" id="nav1">
+              HOSPITALS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="rough/dropa/dropa.html">Ottawa General</a></li>
+              <li><a class="dropdown-item" href="rough/dropb/dropb.html">Civic Campus</a></li>
+              <li><a class="dropdown-item" href="rough/dropc/dropc.html">CHEO</a></li>
+
+
+            </ul>
+          </li> 
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nav1">SPECIALITIES</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav1">DOCTORS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="nav1">LABORATORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="nav1">PHARMACY</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" id="nav1">
+              GALLERY
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="rough/dropa/dropa.html">Labaratory</a></li>
+              <li><a class="dropdown-item" href="rough/dropb/dropb.html">ICU</a></li>
+              <li><a class="dropdown-item" href="rough/dropc/dropc.html">Consultation Room</a></li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+<!----- sticky nav ends here -->
+  <div class="container" id="edit2">
+    <div class="row">
+      <div class="col-1 col-md-4"></div>
+      <div class="col-10 col-md-4" id="box"><img src="./eh-logo-final.png" alt="" class="img-fluid" id="img"></div>
+    </div>
+    <div class="box1">
+      <p class="p1">Welcome to Ottawa E-Hospital appointment booking platform!</p>
+      <ol>
+          <li> Select the most convenient location for you</li>
+        <li>Choose the test you would like to perform</li>
+        <li> Give your contact details</li>
+        <li>Book  your appointment</li>
+      </ol>
+      <p class="p1">You will receive a confirmation e-mail following your booking and SMS reminder along with e-mail 24 hours prior to your appointment date and time will be sent.</p>
+      <p class="p2"><strong>Please note that results will be available within 24 hours for any conventional tests and within 12 hours for general test.</strong></p>
+      <p class="p3">*Suspicious results may take up to 36 hours</p>
+      <p class="p1">Hope to see you soon !</p>
+      <p class="p1">#staysafe #stay healthy</p>
+
+        
+    </div>
+  
+  </div>
+  <div class="container" id="edit3">
+    <div class="container" style="text-align:center;">
+      <h4>Select Location </h4>
+      <form align:left>
+        <label class="radio-inline">
+          <input type="radio" name="optradio" checked>Ottawa General
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio">Civic campus
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio">CHEO
+        </label>
+      </form>
+    </div>
+
+
+
+    <div class="cont1"><span class="s1">1</span><span class="s2">Choose your lab test</span></div>
+
+                   <!-- blood tests -->     
+                      
+                 
+    <div class="cont2">
+         <div id="h1">Blood Test</div>
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">Complete Blood Picture</div>
+        
+        <form>
+            <input class="form control" type="button" placeholder="Select DateTime">
+          </form>
+                 <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+          <button class="btn btn-secondary" id="button" type="button">Book  </button>
+         
+        </div>
+     </div>
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">Liver Function Test</div>
+                   <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+    
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">Random Blood Sugar</div>
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+        
+        
+
+      
+                                     
+                             <!--  covid tests -->    
+
+      <div id="h1">Radiology</div>
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>X-Ray</div> <br>
+          <div>Available at all locations</div>
+        </div>
+          <form>
+            <input class="form control" type="button" placeholder="Select DateTime">
+          </form>
+     
+                 
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+    
+
+     
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>CT Scan</div> <br>
+          <div>Available at Ottawa General, Civic Campus</div>
+        </div>
+      
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+
+     
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>PET Scan</div> <br>
+          <div>Available only at Ottawa General</div>
+        </div>
+       
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+     
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>Ultrasound</div> <br>
+          <div>Available at all centres</div>
+        </div>
+        
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+      
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>MRI Scan</div> <br>
+          <div>Available at Ottawa General,Civic Campus</div>
+        </div>
+       
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="#"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+      
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>Mammography</div> <br>
+          <div>Available only at Ottawa General</div>
+        </div>
+       
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+              
+          <a href="https://css-tricks.com/almanac/properties/b/box-shadow/"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+      
+
+
+      <div id="h1">Covid Test</div>
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>Rapid Antigen Test</div> <br>
+        </div>
+       
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="www.google.com"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+     
+      <div id="box2" class="row">
+        <div class="col-md-10 col-8" id="c1">
+          <div>RT-PCR Test</div> <br>
+        </div>
+       
+            <form>
+                <input class="form control" type="button" placeholder="Select DateTime">
+              </form>
+                     <div class="col-md-2 col-4" style="text-align: center; margin-top: 5px; padding: 13px 0 10px 0;">
+                        <a href="https://getbootstrap.com/docs/4.0/components/buttons/"><button class="btn btn-secondary" id="button" type="button">Book </button></a>
+        </div>
+        </div>
+    
+      </div>
+    </div>
+  
+ 
+  <div class="container" id="edit3">
+    <div class="cont1"><span class="s1">2</span><span class="s2">General Information</span></div>
+
+  </div>
+  <div class="container" id="edit3">
+    <div class="cont1"><span class="s1">3</span><span class="s2">Confirmation</span></div>
+
+  </div>
+
+
+ 
+  <!-- Footer----------------------------------------------------------------------------------------------------------- -->
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+<footer class="footer">
+<div class="waves">
+  <div class="wave" id="wave1"></div>
+  <div class="wave" id="wave2"></div>
+  <div class="wave" id="wave3"></div>
+  <div class="wave" id="wave4"></div>
+</div>
+<ul class="social-icon">
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a></li>
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a></li>
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a></li>
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a></li>
+</ul>
+<ul class="menu">
+  <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+  <li class="menu__item"><a class="menu__link" href="#">Register</a></li>
+  <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+  <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
+  <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
+
+</ul>
+<p>&copy;2022 E-Hopital uOttawa | All Rights Reserved</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->    
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+navbar.classList.add("sticky")
+} else {
+navbar.classList.remove("sticky");
+}
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    config = {
+    enableTime: true,
+    dateFormat: "Y-m-d H:i",
+    altInput: true,
+    altFormat: "F j, Y (h:S K)"
+    }
+  flatpickr("input[type=button]", config);
+  </script>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+ crossorigin="anonymous">
+</script>
+
+
+</body>
+</html>
