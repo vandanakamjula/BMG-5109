@@ -1,1 +1,1 @@
-The two main files included in our work are editedrough.html and rough.css as they are the main source code works of our team and the image attached is the logo. The complete laboratory page integrated folder is the website.rar file.
+This repository contains the book a lab test functionality. The two main files included in our work are editedrough.html and rough.css as they are the main source code works of our team and the image attached is the logo. The complete laboratory page integrated folder is the website.rar file.
